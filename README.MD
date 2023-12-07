@@ -10,7 +10,7 @@ This project is a robust Laravel template designed for quick and efficient web d
 
 ### Authentication Pages
 - **Login Screen:** A user-friendly interface for signing in.
-![Alt text](/demopics/login.png)
+![Alt text](/demopics/Login.png)
 - **Registration Screen:** An intuitive layout for new user registration.
 ![Alt text](/demopics/register.png)
 ### Theme Variations
