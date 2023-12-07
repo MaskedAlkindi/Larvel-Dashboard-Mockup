@@ -34,13 +34,18 @@ For more information on themes and customization options, visit the [DaisyUI The
 - MySQL or PostgreSQL database
 - Essential dependencies as specified in the project documentation.
 
-## How to Install
+## Installation Instructions
+
+### Pre-installation Setup
+Before proceeding, ensure you have XAMPP installed to create a local web server environment. Download it from [XAMPP's official website](https://www.apachefriends.org/index.html) and follow the installation instructions.
+
 
 ### Cloning the Repository
 Initiate by cloning the repository:
 ```bash
-git clone [repository-url]
-cd [project-directory]
+git clone https://github.com/MaskedAlkindi/Larvel-Dashboard-Mockup.git
+
+cd Larvel-Dashboard-Mockup/Dashboard
 ```
 
 ### Dependency Installation
@@ -55,6 +60,20 @@ Configure the environment file:
 ```bash
 cp .env.example .env
 ```
+Edit the .env file to match your local environment settings, particularly the database connection details (DB_DATABASE, DB_USERNAME, DB_PASSWORD).
+
+
+#### .env
+```
+DB_CONNECTION=mysql
+DB_HOST=127.0.0.1
+DB_PORT=3306
+DB_DATABASE=
+DB_USERNAME=
+DB_PASSWORD=
+```
+
+
 
 ### Application Key
 Generate a unique key for the application:
@@ -76,3 +95,6 @@ npm run dev
 ```
 
 This comprehensive guide ensures a smooth setup and deployment of your Laravel Dashboard Template.
+
+
+
